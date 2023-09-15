@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Fav from "/public/fav.ico"
 
 const SEO = ({ title, description, keywords }) => {
     // Cuztomize Meta Properties
@@ -53,13 +54,13 @@ const SEO = ({ title, description, keywords }) => {
                 rel="icon"
                 type="image/png"
                 sizes="32x32"
-                href="/favicon-32x32.png"
+                href={Fav}
             />
             <link
                 rel="icon"
                 type="image/png"
                 sizes="16x16"
-                href="/favicon-16x16.png"
+                href={Fav}
             />
             <link rel="manifest" href="/site.webmanifest" />
             <link

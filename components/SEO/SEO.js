@@ -60,7 +60,7 @@ const SEO = ({ title, description, keywords }) => {
                 rel="icon"
                 type="image/png"
                 sizes="16x16"
-                href={Fav}
+                href={Fav }
             />
             <link rel="manifest" href="/site.webmanifest" />
             <link

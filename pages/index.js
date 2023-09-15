@@ -3,12 +3,10 @@ import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
 import { Layout } from "@components/Layout";
 import { HomeBanner } from "@components/Banner";
-import { Columns } from "@components/Columns";
 import { ContentImage } from "@components/ContentImage";
 import { Content } from "@components/Content";
 import { Accordion } from "@components/Accordion";
 import { MotionBTTContainer } from "@components/Motion";
-import { Logo } from "public/logo.png";
 import SEO from "@components/SEO/SEO";
 import {
     CardBody,
@@ -17,8 +15,7 @@ import {
     CardImage,
     Card
 } from "@components/Card";
-import {ProductJsonLd} from 'next-seo';
-import {faDirections} from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Home() {
     return (

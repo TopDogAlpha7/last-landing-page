@@ -1,9 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import Logo from "/public/Screenshot 2023-09-14 015714.png";
 import { SectionContainer } from "@components/Section";
 import { Nav } from "@components/Nav";
 import { ButtonGroup, Button } from "@components/Button";
 import { Icon } from "@iconify/react";
+import { useState } from "react";
 
 export const Header = () => {
     return (
@@ -13,31 +15,13 @@ export const Header = () => {
         >
             <SectionContainer className="header--container wrap wrap-px ">
                 <div className="header-logo--container">
-                    <h1 className="logo mb-0">
-                        <Link href="/">
-                            <Image
-                                src="/nutritrack.svg"
-                                alt="logo"
-                                className="h-6 w-auto"
-                                height="24"
-                                width="100"
-                                priority
-                            />
-                        </Link>
+                    <h1 className="logo mb-4 bold font-serif">
+                        <Link href="/"></Link>
+                        {/* Rujembe */}
                     </h1>
                 </div>
                 <SectionContainer className="flex items-center ml-auto">
                     <Nav />
-                    <ButtonGroup className="hidden md:block">
-                        <a
-                            role="button"
-                            href="https://avenuelabs.lemonsqueezy.com/checkout/buy/df8ccd46-fa63-4384-b2aa-c4c9b8ad3ef0?embed=1"
-                            className="btn btn--secondary lemonsqueezy-button ml-4"
-                        >
-                            Get Template
-                            <Icon icon="material-symbols:arrow-forward-rounded" />
-                        </a>
-                    </ButtonGroup>
                 </SectionContainer>
             </SectionContainer>
         </header>

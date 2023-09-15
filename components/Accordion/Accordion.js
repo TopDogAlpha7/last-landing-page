@@ -7,37 +7,24 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What is Notion?",
+        title: "What is Rujembe Studios?",
         isOpen: true,
         content:
-            "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+            "Rujembe Studios is a vibrant creative hub that blends art, fashion, and culture to deliver unique and innovative experiences. Our brand is rooted in the Afro-futuristic and sustainable luxury fashion and lifestyle realm, specializing in men's and women's apparel."
     },
     {
         id: uuid(),
-        title: "Who is this template for?",
+        title: "Who is this Rujembe Studios for?",
         isOpen: false,
         content:
-            "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
+            "Rujembe Studios is for individuals who appreciate and value Afro-futuristic, sustainable luxury fashion and lifestyle experiences. Our brand is designed to resonate with those who seek unique and innovative designs, impeccable craftsmanship, and unparalleled quality in men's and women's apparel. We are also for individuals who are interested in and supportive of artistic exploration that delves into the rich and diverse lives of Black and People of Color (BPOC) communities. "
     },
     {
         id: uuid(),
-        title: "Do I need to pay for this?",
-        isOpen: false,
-        content: "No, this is free."
-    },
-    {
-        id: uuid(),
-        title: "What will I get when I buy this template?",
+        title: "Where can I ask more questions about Rujembe Studios?",
         isOpen: false,
         content:
-            "When you purchase this template, you will receive a customizable NextJS landing page template built with TailwindCSS, allowing you to create a personalized and visually stunning landing page for your Notion workspace. The template comes with the necessary setup and documentation to help you get started quickly."
-    },
-    {
-        id: uuid(),
-        title: "Where can I ask more questions about this template?",
-        isOpen: false,
-        content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+            "If you have any further questions or need assistance regarding Rujembe Studios, please feel free to reach out to us on the various social media platforms, or click the Contact within the navigation links."
     }
 ];
 

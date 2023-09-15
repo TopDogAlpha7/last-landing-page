@@ -8,6 +8,7 @@ import { ContentImage } from "@components/ContentImage";
 import { Content } from "@components/Content";
 import { Accordion } from "@components/Accordion";
 import { MotionBTTContainer } from "@components/Motion";
+import { Logo } from "public/logo.png";
 import SEO from "@components/SEO/SEO";
 import {
     CardBody,
@@ -16,6 +17,8 @@ import {
     CardImage,
     Card
 } from "@components/Card";
+import {ProductJsonLd} from 'next-seo';
+import {faDirections} from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
     return (
@@ -24,7 +27,7 @@ export default function Home() {
                 title="NutriTrack - Avenue Labs landing page template 🚀"
                 description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
             />
-            <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
+            <div className="main-wrapper bg-brown-200 relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
                 <HomeBanner />
                 {/* Components Container */}
@@ -35,23 +38,17 @@ export default function Home() {
                     >
                         <SectionContainer id="features" className="features">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>Features</BadgeMessage>
+                                <BadgeMessage>Our Vision</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Simplify Your Nutrition Journey with NutriTrack
+                                Dive into the history and vision of Rujembe
+                                Studios
                             </PageTitle>
                             <Content className="text-center" alignment="center">
-                                <p>
-                                    Hey there! Welcome to NutriTrack, the
-                                    ultimate nutrition meal planner powered by
-                                    Notion. We&apos;ve got some awesome features
-                                    lined up to make your nutrition journey a
-                                    piece of cake (pun intended). Check them
-                                    out:
-                                </p>
+                                <p></p>
                             </Content>
                             <ContentImage />
                         </SectionContainer>
@@ -60,25 +57,28 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <SectionContainer className="feature-tabs">
+                        <SectionContainer id="about" className="feature-tabs">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>More Features</BadgeMessage>
+                                <BadgeMessage>About Us</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Master Your Meal Planning and Nutrition Journey
+                                About Us
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Our comprehensive Notion template designed
-                                    to empower you on your meal planning and
-                                    nutrition journey. With our user-friendly
-                                    features, customizable layouts, and seamless
-                                    recipe integration, taking control of your
-                                    meals has never been easier.
+                                    Through our product and service offerings we
+                                    aim to revolutionise the digital ecommerce
+                                    experience provide a contemporary outlook on
+                                    African fashion, bridge the gap between the
+                                    African diaspora and Africa through
+                                    technology, colaboration and paid business
+                                    opportunities - providing sustainable
+                                    textile production solutions, consumerism,
+                                    and overal living.
                                 </p>
                             </Content>
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
@@ -89,17 +89,26 @@ export default function Home() {
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Customizable Layouts
+                                            About Rujembe Studios
                                         </CardHeader>
                                         <p>
-                                            Personalize your meal planning
-                                            experience with our flexible
-                                            layouts. Tailor your sections,
-                                            categories, and tabs to suit your
-                                            unique style and organization
-                                            preferences. Our template adapts to
-                                            your needs, providing a seamless and
-                                            personalized planning experience.
+                                            We are an Afro-futuristic,
+                                            sustainable luxury Fashion and
+                                            Lifestyle Brand specializing in
+                                            men's and women's apparel. Our
+                                            dedication to immaculate
+                                            craftsmanship, unparalleled quality,
+                                            and innovative design is a testament
+                                            to our commitment to excellence.
+                                            Rooted in culture and driven by
+                                            artistic exploration, our brand
+                                            delves into the rich and diverse
+                                            lives of Black and People of Color
+                                            (BPOC) communities. We express our
+                                            in-depth research through a variety
+                                            of art forms, seamlessly merging
+                                            fashion and culture to create an
+                                            authentic and inspiring narrative.
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -110,7 +119,7 @@ export default function Home() {
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Progress Tracking
+                                            Ruth-Jennifer Ndombe
                                         </CardHeader>
                                         <p>
                                             Celebrate your wins and stay
@@ -128,7 +137,7 @@ export default function Home() {
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Testimonials */}
-                    <MotionBTTContainer
+                    {/* <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer
@@ -145,7 +154,7 @@ export default function Home() {
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
-                    </MotionBTTContainer>
+                    </MotionBTTContainer> */}
                     {/* Accordions */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
@@ -158,7 +167,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about NutriTrack?{" "}
+                                Got some burning questions about Rujembe?{" "}
                                 <br></br>
                                 <br></br>No worries! We&apos;ve got the answers
                                 you need:

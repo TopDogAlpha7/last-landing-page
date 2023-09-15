@@ -75,6 +75,13 @@ module.exports = {
                     800: "#000000",
                     900: "#000000"
                 },
+                brown: {
+                    DEFAULT: "#6C3428",
+                    100: "#CEE6F3",
+                    200: "#DFA878",
+                    300: "#BA704F",
+                    500: "#6C3428"
+                },
                 white: {
                     DEFAULT: "#FFFFFF",
                     50: "#FFFFFF",

@@ -68,7 +68,7 @@ const SEO = ({ title, description, keywords }) => {
                 color="#5bbad5"
             />
             {/* Title */}
-            <title>{title}</title>
+            <title>Rujembe  </title>
 
             <meta name="msapplication-TileColor" content="#da532c" />
             <meta name="theme-color" content="#ffffff" />

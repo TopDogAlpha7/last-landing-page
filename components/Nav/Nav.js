@@ -4,12 +4,12 @@ import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
 const navigation = [
-    { name: "Features", to: "#features", href: "/#features" },
-    { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
+    { name: "Our Vision", to: "#features", href: "/#features" },
+    { name: "About Us", to: "#about", href: "/#about" },
     { name: "FAQ?", to: "#faq", href: "/#faq" },
     {
         name: "Contact",
-        href: "https://cjluntok.com/",
+        href: "https://www.linkedin.com/in/ruth-jennifer-ndombe-aa9a51250/",
         isArrow: true,
         target: "_blank"
     }

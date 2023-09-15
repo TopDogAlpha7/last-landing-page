@@ -2,23 +2,43 @@ import { SectionContainer } from "@components/Section";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import { v4 as uuid } from "uuid";
+import History from "/public/black.webp";
+import Psycho from "/public/psychology.jpg";
+import Fashion from "/public/fashion.jpg";
+import Sustain from "/public/sustain.jpg";
 
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "History",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "Our design process is deeply rooted in historical research. We immerse ourselves in the captivating lives and experiences of past and present Black and Brown tribes, leaders, successors, influential figures, kings, and queens. Through our exploration, we aim to shed light on their compelling stories, enriching our designs with their remarkable narratives.",
         align: "right",
-        image: "/features1.png"
+        image: History
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Psychology",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+            "We are dedicated to dismantling the enduring psychological impacts of colonialism. Our mission involves unearthing character, mindset, and trauma while actively challenging prevailing standards and norms, particularly within Black and Brown communities. Through our work, we seek to foster a deeper understanding and pave the way for positive change.",
         align: "left",
-        image: "/features2.png"
+        image: Psycho
+    },
+    {
+        id: uuid(),
+        title: "Fashion",
+        content:
+            "At the heart of our mission is the meticulous manufacturing and design of high-quality garments that not only captivate fashion enthusiasts but also embrace the essence of true African designs. These meticulously crafted pieces take their place in the spotlight, gracing the runway at annual fashion shows where they shine as a testament to our unwavering commitment to excellence in design and craftsmanship.",
+        align: "right",
+        image: Fashion
+    },
+    {
+        id: uuid(),
+        title: "Sustainability",
+        content:
+            "At our core, we are committed to making a positive impact on social, environmental, and economic fronts. We empower Black and Brown artisans within and beyond the diaspora, champion inclusivity and diversity in the creative industry, prioritize sustainably sourced fabrics, and revive traditional textile production techniques. Our brand embodies a mission that extends beyond fashion, aiming to create opportunities, drive change, and celebrate culture while offering stylish, eco-conscious products that resonate with a purpose-driven community.",
+        align: "left",
+        image: Sustain
     }
 ];
 

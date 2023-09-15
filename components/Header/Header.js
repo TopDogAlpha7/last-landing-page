@@ -16,7 +16,7 @@ export const Header = () => {
             <SectionContainer className="header--container wrap wrap-px ">
                 <div className="header-logo--container">
                     <h1 className="logo mb-4 bold font-serif">
-                        <Link href="/"></Link>
+                        <Link href="/">Rujembe</Link>
                         {/* Rujembe */}
                     </h1>
                 </div>

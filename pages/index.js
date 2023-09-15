@@ -8,6 +8,7 @@ import { Content } from "@components/Content";
 import { Accordion } from "@components/Accordion";
 import { MotionBTTContainer } from "@components/Motion";
 import SEO from "@components/SEO/SEO";
+import Background from "/public/background.jpg"
 import {
     CardBody,
     CardGroup,
@@ -82,7 +83,7 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features4.png"
+                                            src={Background}
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
@@ -112,14 +113,14 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features3.png"
+                                            src={Background}
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
                                             Ruth-Jennifer Ndombe
                                         </CardHeader>
                                         <p>
-                                            
+                                            Founder of Rujemebe Studios...
                                         </p>
                                     </CardBody>
                                 </Card>

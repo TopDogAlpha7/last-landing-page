@@ -1,5 +1,14 @@
+<div align="center">
+  <img alt="NutriTrack logo" src="/public/nutritrack.svg" width="100" />
+</div>
 
+<h1 align="center">
+  NutriTrack - Avenue Labs landing page template 🚀
+</h1>
 
+NutriTrack is a customizable NextJS and TailwindCSS landing page template that offers personalized styling and easy customization. Tailored to provide a minimal design, it allows you to effortlessly create a site that suits your requirements. You can easily make use of the components and customize the code to mix and match to suit your needs.
+
+<hr>
 
 ![NutriTrack Mockup](/public/nutritrack.png)
 
@@ -75,4 +84,5 @@ Licensed under the MIT License, Copyright © 2023
 If you have any suggestions/feedback, you can contact the creator, Christian Luntok, via [hey@avenuelabs.co](mailto:hey@avenuelabs.co). Alternatively, feel free to open an issue if you find bugs or want to request new features.
 
 ---
+
 

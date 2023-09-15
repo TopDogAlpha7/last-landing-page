@@ -119,14 +119,7 @@ export default function Home() {
                                             Ruth-Jennifer Ndombe
                                         </CardHeader>
                                         <p>
-                                            Celebrate your wins and stay
-                                            motivated on your nutrition journey.
-                                            NutriTrack allows you to monitor
-                                            your progress with weight,
-                                            measurements, and other key metrics.
-                                            Track your improvements over time
-                                            and see the positive impact of your
-                                            healthy choices.
+                                            
                                         </p>
                                     </CardBody>
                                 </Card>
